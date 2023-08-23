@@ -1,0 +1,590 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    top: 0%;
+    box-sizing: border-box;
+    font-family: 'Arial';
+}
+
+nav{
+    width: 100%;
+    height: 50px;
+    background: white;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    z-index: 999;
+    position: fixed;
+    box-shadow: 0px 3px 5px rgb(0, 0,0,0.5);
+}
+body{
+    
+}
+
+nav button{
+    padding: 5px 5px;
+    background: blue;
+    color:white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.div-button{
+    margin-left: 150px;
+    margin-top: -1px;
+}
+
+
+ .menu-icon{
+    margin-top: -30px;
+    margin-left: 1200px;
+    display: none;
+}
+
+
+nav ul{
+    display: flex;
+    margin-top: -40px;
+    margin-left: 250px;
+}
+nav li{
+    min-width: 150px;  
+    list-style: none;
+    color: black;
+}
+.imgs{
+    width: 50px;
+    height: 50px;
+}
+.imagem{
+    margin-top: -40px;
+}
+.img{
+    width: 700px;
+    height: 300px;
+    margin-left: 100px;
+}
+li a{
+    text-decoration: none;
+}
+
+.display{
+    margin-top: 60px;
+    margin-left: 20px;
+    display: flex;
+    margin-left: -4px;
+}
+.h1{
+    margin-top: 30px;
+margin-left: 60px;
+color:  white;
+}
+
+.form{
+    margin-top: 5px;
+    margin-left: 5px;
+    display: flex;
+}
+.form1{
+width: 250px;
+height: 230px;
+box-shadow: 0px 3px 5px rgb(0, 0,0,0.5);
+border-radius: 6px;
+}
+.imagem1{
+    margin-top: 10px;
+   margin-left: 60px;
+}
+.img1{
+    width: 120px;
+    height: 130px;
+    border-radius: 35px;
+}
+.span{
+    margin-left:45px ;
+}
+.btn{
+    margin-top: 10px;
+    margin-left: 45px;
+}
+.btn1{
+    padding: 5px 5px;
+    border: none;
+    border-radius: 4px;
+    background: blue;
+    color: white;
+    cursor: pointer;
+}
+.btn1:hover{
+    background: red;
+}
+
+.form2{
+    width: 250px;
+    height: 230px;
+    margin-left: 100px;
+    box-shadow: 0px 3px 5px rgb(0, 0,0,0.5);
+    border-radius: 6px;
+    }
+
+    .imagem2{
+        margin-top: 10px;
+       margin-left: 60px;
+    }
+    .img2{
+        width: 120px;
+        height: 130px;
+        border-radius: 60px;
+    }
+
+    .form3{
+        width: 250px;
+        height: 230px;
+        margin-left: 100px;
+        box-shadow: 0px 3px 5px rgb(0, 0,0,0.5);
+        border-radius: 6px;
+        }
+        .imagem3{
+            margin-top: 10px;
+           margin-left: 60px;
+        }
+        .img3{
+            width: 120px;
+            height: 130px;
+            border-radius: 60px;
+        }
+
+        .form4{
+            width: 250px;
+            height: 230px;
+            margin-left: 70px;
+            box-shadow: 0px 3px 5px rgb(0, 0,0,0.5);
+            border-radius: 6px;
+            }
+            .imagem4{
+                margin-top: 10px;
+               margin-left: 60px;
+            }
+            .img4{
+                width: 120px;
+                height: 130px;
+                border-radius: 60px;
+            }
+        footer{
+            width: 100%;
+            height: 100px;
+            margin-top: 20px;
+            box-shadow: 0px 3px 5px rgb(0, 0,0,0.8);
+        }
+        .icon{
+            margin-left: 970px;
+            display: flex;
+        }
+.icone{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    
+}
+.texte{
+    margin-left: 10px;
+    margin-top: 35px;
+}
+.texte1{
+    font-size: 18px;
+}
+/*
+@keyframes transision{
+
+    from { margin-left:400px;}
+    to {margin-left: 20px;}
+
+}
+*/
+
+
+h1{
+    background: orange;
+}
+
+
+@keyframes animacao{
+    
+    from {color:red;margin-left: 2px;}
+    to {color: blue;margin-left: 80px;}
+}
+
+b{
+    color: blue;
+    animation-name: animacao;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+}
+
+.marcar{
+    margin-top: 10px;
+}
+
+@keyframes animacao1 {
+    from {background:red;}
+    to {background:blue;}
+}
+
+.marcar1{
+    background: red;
+    color: white;
+    border: none;
+    padding:5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    animation-name: animacao1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.marcar1:hover{
+    background: blue;
+}
+.hover:hover{
+    background: red;
+}
+ 
+     
+
+@media (max-width:1046px){
+
+nav .menu-icon{
+    display: block;
+    margin-left: 1000px;
+}
+.hover{
+    display: none;
+}
+
+nav ul{
+    position: fixed;
+    width: 70%;
+    height: 60px;
+    top:30px;
+    left: -250px;
+    border-radius:8px;
+    border-left: 4px solid blue;
+    border-right: 4px solid blue;
+    transform: translatex(-300%);
+    display: flex;
+    align-items: center;
+    flex-direction:flex;
+    justify-content: center;
+    transition: 0.3s ease-in;
+    background-color: orange;
+}
+ul li a{
+    margin-left: 20px;
+}
+
+nav ul.active{
+    transform: translateX(0);
+}
+.menu-icon{
+margin-top: -45px;
+}
+
+   }
+
+   @media (max-width:1389px){
+.display{
+    display: block;
+}
+h1{
+    margin-top: -8px;
+    margin-left: -60px;
+}
+.img{
+    width: 800px;
+    height: 400px;
+}
+.imagem{
+    margin-top: 20px;
+    margin-left: 190px;
+}
+.form4{
+    display: none;
+}
+.form{
+    margin-left: 230px;
+}
+
+     }
+ 
+     @media (max-width:1376px){
+.icon{
+    margin-left: 880px;
+}
+.img{
+    margin-left: 90px;
+}
+.form{
+    margin-left: 210px;
+}
+         }
+
+     
+
+         
+     @media (max-width:1176px){
+.form{
+    margin-left: 110px;
+}
+.img{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: -10px;
+}
+.icon{
+    margin-left: 800px;
+}
+         }
+
+         
+         @media (max-width:1030px){
+            nav .menu-icon{
+                margin-left: 940px;
+            }
+            
+            nav ul{
+                position: fixed;
+                width: 75%;
+                height: 60px;
+                top:30px;
+                left: -250px;
+                border-radius:8px;
+                border-left: 4px solid blue;
+                border-right: 4px solid blue;
+                transform: translatex(-300%);
+                display: flex;
+                align-items: center;
+                flex-direction:flex;
+                justify-content: center;
+                transition: 0.3s ease-in;
+                background-color: orange;
+            }
+            
+                             }
+            
+     
+
+
+         @media (max-width:1084px){
+.form{
+    margin-left: 235px;
+}
+            .form3{
+                margin-top: 300px;
+                margin-left: -435px;
+            }
+            .img{
+                margin-left: -50px;
+
+            }
+}
+      
+
+@media (max-width:980px){
+nav ul{
+    
+    margin-left: 250px;
+}
+ul li{
+margin-left: -25px;
+}
+.sessao{
+     margin-left: -90px;
+     }
+     .icon{
+        margin-left: 600px;
+     }
+     
+     .img{
+        border-radius: 300px;
+        width: 600px;
+        margin-left: 20px;
+     }
+  
+ }
+
+ @media (max-width:888px){
+
+   .sessao { 
+margin-left: -150px;
+    }
+
+    .icon{
+        margin-left: 350px;
+    }
+    
+
+    }
+
+    
+ @media (max-width:840px){
+
+    nav ul{
+        position: fixed;
+        width: 20%;
+        height: 100vh;
+        top:30px;
+        left: -260px;
+        border-radius:8px;
+        border-left: 4px solid orange;
+        transform: translatex(-300%);
+        display: flex;
+        align-items: center;
+        flex-direction:column;
+        justify-content: center;
+        transition: 0.3s ease-in;
+        background-color: orange;
+        color: white;
+    }
+    ul li a{
+        margin-left: 50px;
+        color: white;
+        font-size: 20px;
+    }
+
+.sessao{
+    margin-left: -300px;
+}
+     .icon{
+         margin-left: 20px;
+     }
+     .img{
+        margin-left: -40px;
+     }
+     .form{
+        margin-left: 130px;
+     }
+     
+ 
+     }
+ 
+     @media (max-width:760px){ 
+        .form1{
+margin-left: 130px;
+        }
+        .form2{
+            margin-top: 30px;
+            margin-left: 130px;
+        }
+        .form4{
+            display: block;
+            margin-top: -500px;
+            margin-left: 130px;
+        }
+        footer{
+            margin-top: 173px;
+        }
+        
+
+        .img{
+            margin-left: -100px;
+        }
+.form{
+    flex-direction: column;
+}
+         }
+
+
+         @media (max-width:760px){ 
+
+            .sessao{
+                margin-left: -800px;
+            }
+
+             }
+         
+             @media (max-width:680px){
+                .form{
+                    margin-left: 75px;
+                } 
+
+                .imagem{
+                    margin-top: -30px;
+                }
+.img{
+    border-top: 2px solid blue;
+    width: 330px;
+}
+                 }
+
+
+                  @media (max-width:680px){
+                .form{
+                    margin-left: 75px;
+                } 
+
+                .imagem{
+                    margin-top: -30px;
+                }
+.img{
+    border-top: 2px solid blue;
+    width: 330px;
+}
+                 }
+ 
+
+
+                 @media (max-width:470px){
+                    nav ul{
+                        width: 25%;
+                    }
+                    .form{
+                        margin-left: -10px;
+                    }
+                     }
+
+                     
+                 @media (max-width:422px){
+                    nav ul{
+                        width: 28%;
+                    }
+                    .imagem{
+                        margin-top: 15px;
+                    }
+                    .img{
+                        width: 230px;
+                        margin-left: -200px;
+                    }
+                    .form{
+                        margin-left: -40px;
+                    }
+                
+                     }
+
+                                          
+                 @media (max-width:345px){
+                    nav ul{
+                        width: 33%;
+                    }
+                    .ul li{
+                        margin-left: 90px;
+                    }
+
+                    .form{
+                        margin-left: -80px;
+                    }
+
+                    }
+     
+
+                                              
+                 @media (max-width:300px){
+                    .form{
+                        margin-left: -100px;
+                    }
+
+                    }
+
+                    
+
+    
+                        
